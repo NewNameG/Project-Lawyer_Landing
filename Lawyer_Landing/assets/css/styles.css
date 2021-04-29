@@ -1,0 +1,286 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+/* Спецификации */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.span {
+    display: block;
+    color: darkorange;
+}
+
+.main-title {
+    border-left: 5px solid #D89617;
+    padding-left: 11px;
+    color: #000;
+    font-size: 64px;
+}
+
+/* Header */
+
+.header {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 36px 0px 93px 0px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.header-element {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 32px;
+}
+
+.header-tel {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 6.25px;
+}
+
+.header-text-emelent {
+    line-height: 39,01px;
+}
+
+/* Question */
+
+.question {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.question-title {
+    font-size: 96px;
+}
+
+.question-text {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.accent {
+    color: darkorange;
+}
+
+.question-button {
+    margin-top: 56px;
+    font-size: 36px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    background-color: #000B26;
+    padding: 25px 35px 24px 34px;
+    cursor: pointer;
+}
+
+/* Services */
+
+.services {
+    margin: 58px 0px 199px 0px;
+}
+
+.services-wrapper {
+    margin-top: 127px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.services-wrapper-element {
+    display: flex;
+    align-items: center;
+}
+
+.services-wrapper-element:nth-child(1) .services-wrapper-icon {
+    margin-right: 39.08px;
+}
+
+.services-wrapper-element:nth-child(2) .services-wrapper-icon {
+    margin-right: 85.5px;
+}
+
+.services-wrapper-element:nth-child(3) {
+    margin-top: 130px;
+}
+
+.services-wrapper-element:nth-child(3) .services-wrapper-icon {
+    margin-right: 53px;
+}
+
+.services-wrapper-element:nth-child(4) {
+    margin-top: 150px;
+}
+
+.services-wrapper-element:nth-child(4) .services-wrapper-icon {
+    margin-right: 67.2px;
+}
+
+.services-wrapper-element:nth-child(5) {
+    margin-top: 114px;
+}
+
+.services-wrapper-element:nth-child(5) .services-wrapper-icon {
+    margin-right: 73.25px;
+}
+
+.services-wrapper-element:nth-child(6) {
+    margin-top: 119px;
+}
+
+.services-wrapper-element:nth-child(6) .services-wrapper-icon {
+    margin-right: 67px;
+}
+
+.services-wrapper-text {
+    font-size: 30px;
+}
+
+/* reviews */
+
+.reviews {
+    margin-bottom: 155px;
+}
+
+.reviews-title {
+    padding-left: 24px;
+}
+
+.reviews-wrapper {
+    margin-top: 129px;
+}
+
+.reviews-wrapper-element:nth-child(2) {
+    margin-top: 129px;
+}
+
+.reviews-wrapper-element:last-child {
+    margin-top: 109px;
+}
+
+.reviews-wrapper-element {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-wrapper-img {
+    margin-right: 41px;
+}
+
+.reviews-wrapper-text {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43,88px;
+}
+
+/* aboutMe */
+
+.aboutMe {
+    
+}
+
+.aboutMe-wrapper {
+    text-align: center;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe-wrapper-text {
+    font-size: 34px;
+    line-height: 41,45px;
+}
+
+.aboutMe-wrapper-element:first-child .aboutMe-wrapper-text {
+    margin-top: 34.5px;
+}
+
+.aboutMe-wrapper-element:nth-child(2) .aboutMe-wrapper-text {
+    margin-top: 50px;
+}
+
+.aboutMe-wrapper-element:nth-child(3) .aboutMe-wrapper-text {
+    width: 336px;
+    margin-top: 42.75px;
+}
+
+.aboutMe-last-element {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.aboutMe-last-element .aboutMe-wrapper-text {
+    margin-top: 20px;
+}
+
+/* leave-contacts */
+
+.leave-contacts {
+    margin-top: 302px;
+    font-weight: 600;
+}
+
+.leave-contacts-title {
+    font-size: 36px;
+}
+
+.leave-contacts-text {
+    margin-top: 83px;
+    font-size: 24px;
+}
+
+/* Footer */
+
+.footer {
+    margin: 266px 0px 100px 0px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.footer-contacts-element {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contacts-element:first-child {
+    margin-top: 34.33px;
+}
+
+.footer-contacts-element:last-child {
+    margin-top: 47.46px;
+}
+
+.footer-contacts-element:first-child .footer-contacts-icon {
+    margin-right: 18.1px;
+}
+
+.footer-contacts-element:last-child .footer-contacts-icon {
+    margin-right: 20.25px;
+}
+
+.footer-contacts-text {
+    color: #000;
+}
